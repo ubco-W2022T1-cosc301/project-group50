@@ -1,7 +1,6 @@
 # Group YYY - {Short snappy Title of your project}
 
-**Please remember to update this section**
-
+Heart disease identifyers
 - Your title can change over time.
 
 ## Milestones
@@ -12,19 +11,17 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 **Please remember to update this section**
 
-{Add your stuff here}
-
+I am interested in knowing how various habits and conditions affect different aspects of ones health. For example how smoking affects ones cholesterol levels. The topic of the data invloves these variables. I plan to investigate, with my team, how these variables interact with each other.
 ## Describe your dataset in about 150-200 words
 
 **Please remember to update this section**
 
-{Add your stuff here}
 
 ## Team Members
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
+- Justin: I live in kelowna, I am a math major, minoring in computer science. 
 - Person 2: one sentence about you!
 - Person 3: one sentence about you!
 
@@ -34,8 +31,10 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 {You can use this area for any images you want to include}
 
-<img src ="images/test.png" width="100px">
+<img src ="./HD.png" width="100px">
 
+
+source: https://www.webmd.com/heart-disease/ss/slideshow-heart-disease-affects-body
 ## References
 
 **Please remember to update this section**
