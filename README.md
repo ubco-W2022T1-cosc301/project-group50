@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 50 - Heart Disease
 
 **Please remember to update this section**
 
@@ -17,16 +17,15 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 ## Describe your dataset in about 150-200 words
 
 **Please remember to update this section**
-
-{Add your stuff here}
+Because Heart disease is such a large problem in the United States, the data set we chose to analyze surrounds heart disease with data to calculate/analyze what factors in human health lead to an increased or decreased chance in heart disease. The data columns in our database include medical related tests such as high blood pressure and high cholesterol as well as data behind personal health choices such as smoker or non smoker and the patient's level of physical activity. This data set takes 22 columns of observations data into consideration and returns the tested results behind over 25,000 observations. This data is very well organized and will provide a great base for our project.
 
 ## Team Members
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Colton Palfrey: I am a 3rd year COSC Major and I live in West Kelowna BC!
+- Justin Dilabio: one sentence about you!
+- Mitchell Alexander: one sentence about you!
 
 ## Images
 
