@@ -4,8 +4,6 @@ import os
 def processData(csv_file):
     df = pd.read_csv(csv_file)
     
-    df1 = ['BMI', 'GenHlth', 'MenHlth', 'PhysHlth', 'Age', 'Education', 'Income']
+    df1= (df.drop(['BMI', 'GenHlth', 'MentHlth', 'PhysHlth', 'Age', 'Education', 'Income', 'Fruits', 'Veggies', 'Sex', 'DiffWalk'], axis =1))
     
-    dprocessed=(df.drop(df1, axis = 1).replace(["0.0"], "no"))
-    
-    return dprocessed
+    return df1
