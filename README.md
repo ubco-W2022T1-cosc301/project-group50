@@ -27,15 +27,19 @@ Because Heart disease is such a large problem in the United States, the data set
 
 <<<<<<< HEAD
 - Justin: I live in kelowna, I am a math major, minoring in computer science. 
+<<<<<<< HEAD
+- Mitchell: I live in vernon, I have an interest in safety mechanisms and I am in engineering at UBCO
+=======
 - Person 2: one sentence about you!
 <<<<<<< HEAD
 - Mitchell Alexander I live in vernon, Im in Engineering, and have an interest in safety mechanisms.
 =======
 Mitchell: I live in vernon, I have an interest in safety mechanisms and I am in engineering at UBCO
 =======
+>>>>>>> 7c5a899b53d51fe4a064f545a83cc0497c666236
 - Colton Palfrey: I am a 3rd year COSC Major and I live in West Kelowna BC!
-- Justin Dilabio: one sentence about you!
-- Mitchell Alexander: one sentence about you!
+
+
 >>>>>>> 25cf4cce9845b4dc6a7e620228f72036e0c4dac7
 >>>>>>> fb9aba398ed6bd1c3fc20e796e95ee1d8f37763b
 
