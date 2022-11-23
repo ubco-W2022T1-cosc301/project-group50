@@ -1,0 +1,1302 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1005.1835                               -->
+<workbook original-version='18.1' source-build='2022.3.0 (20223.22.1005.1835)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='heartProbPositive' inline='true' name='federated.163nhue0m4c67c1d26q5o1qat2hy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='heartProbPositive' name='textscan.0yimfc51insf6w1exget10kt0kqr'>
+            <connection class='textscan' directory='Data/notebooks' filename='heartProbPositive.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0yimfc51insf6w1exget10kt0kqr' name='heartProbPositive.csv' table='[heartProbPositive#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='True' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0yimfc51insf6w1exget10kt0kqr' name='heartProbPositive.csv' table='[heartProbPositive#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='True' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[heartProbPositive.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[heartProbPositive.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[heartProbPositive.csv_CED3DFFAEFA94013BD7420C2F75C6E25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>True</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[True]</local-name>
+            <parent-name>[heartProbPositive.csv]</parent-name>
+            <remote-alias>True</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[heartProbPositive.csv_CED3DFFAEFA94013BD7420C2F75C6E25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column caption='Num Heart Problem' datatype='integer' name='[True]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='heartProbPositive.csv' datatype='table' name='[__tableau_internal_object_id__].[heartProbPositive.csv_CED3DFFAEFA94013BD7420C2F75C6E25]' role='measure' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;AnyHealthcare&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HighChol&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;HighBP&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Smoker&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NoDocbcCost&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stroke&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Diabetes&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;HvyAlcoholConsump&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CholCheck&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;PhysActivity&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='heartProbPositive.csv' id='heartProbPositive.csv_CED3DFFAEFA94013BD7420C2F75C6E25'>
+            <properties context=''>
+              <relation connection='textscan.0yimfc51insf6w1exget10kt0kqr' name='heartProbPositive.csv' table='[heartProbPositive#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='True' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='heartProbNegative' inline='true' name='federated.0pg7le318irt331a996ef015b5gi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='heartProbNegative' name='textscan.1bcrcjk18ixcpn16mfuea0xflr8r'>
+            <connection class='textscan' directory='Data/notebooks' filename='heartProbNegative.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1bcrcjk18ixcpn16mfuea0xflr8r' name='heartProbNegative.csv' table='[heartProbNegative#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='False' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1bcrcjk18ixcpn16mfuea0xflr8r' name='heartProbNegative.csv' table='[heartProbNegative#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='integer' name='False' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[heartProbNegative.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[heartProbNegative.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[heartProbNegative.csv_62024B1FD8E74652A4AC9EAD4E2A3B3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>False</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[False]</local-name>
+            <parent-name>[heartProbNegative.csv]</parent-name>
+            <remote-alias>False</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[heartProbNegative.csv_62024B1FD8E74652A4AC9EAD4E2A3B3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+      <column caption='Num Heart Problem' datatype='integer' name='[False]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='heartProbNegative.csv' datatype='table' name='[__tableau_internal_object_id__].[heartProbNegative.csv_62024B1FD8E74652A4AC9EAD4E2A3B3D]' role='measure' type='quantitative' />
+      <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:F1:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;AnyHealthcare&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HighChol&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;HighBP&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Smoker&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NoDocbcCost&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stroke&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Diabetes&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;HvyAlcoholConsump&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CholCheck&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;PhysActivity&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='heartProbNegative.csv' id='heartProbNegative.csv_62024B1FD8E74652A4AC9EAD4E2A3B3D'>
+            <properties context=''>
+              <relation connection='textscan.1bcrcjk18ixcpn16mfuea0xflr8r' name='heartProbNegative.csv' table='[heartProbNegative#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='integer' name='False' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_503B123473794F289E1FA3922A50B497]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Considered Hlth Fact' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Negative bubble'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='10'>*These bubbles represent a visualization of the  health factors that effected those who have/had Heart Problems the least.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbNegative' name='federated.0pg7le318irt331a996ef015b5gi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pg7le318irt331a996ef015b5gi'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[False]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[False]' derivation='Sum' name='[sum:False:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' value='Considered Hlth Fact&#10;(Answered False)'>
+              <formatted-text>
+                <run>Considered Hlth Fact
+(Answered False)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' />
+              <text column='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' />
+              <color column='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D4151A84-160F-4809-AB8F-434F1F79784E}' />
+    </worksheet>
+    <worksheet name='Negative chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbNegative' name='federated.0pg7le318irt331a996ef015b5gi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pg7le318irt331a996ef015b5gi'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[False]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[False]' derivation='Sum' name='[sum:False:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='has-stroke' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]</rows>
+        <cols>[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]</cols>
+      </table>
+      <simple-id uuid='{BBDB1D15-8840-4207-BA89-2B69B3408156}' />
+    </worksheet>
+    <worksheet name='Negative data'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbNegative' name='federated.0pg7le318irt331a996ef015b5gi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pg7le318irt331a996ef015b5gi'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[False]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[False]' derivation='Sum' name='[sum:False:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#efe0d9</color>
+                <color>#eecfc1</color>
+                <color>#edbeaa</color>
+                <color>#ecae92</color>
+                <color>#eb9e7b</color>
+                <color>#ea8e65</color>
+                <color>#e97e4e</color>
+                <color>#e86e38</color>
+                <color>#e75e21</color>
+                <color>#e64f0c</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' value='Range of Negative Health &#10;factors Heart Problem'>
+              <formatted-text>
+                <run>Range of Negative Health 
+factors Heart Problem</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' />
+              <text column='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{BC39AE65-3F11-42ED-A034-8628AA4B64D3}' />
+    </worksheet>
+    <worksheet name='Positive bubble'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='10'>*These bubbles represent a visualization of the biggest health factors that effected those who have/had Heart Problems.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbPositive' name='federated.163nhue0m4c67c1d26q5o1qat2hy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.163nhue0m4c67c1d26q5o1qat2hy'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[True]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[True]' derivation='Sum' name='[sum:True:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='pane'>
+            <format attr='border-color' data-class='total' value='#000000' />
+            <format attr='border-width' data-class='total' value='1' />
+            <format attr='border-style' data-class='total' value='dotted' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' value='Considered Hlth Fact&#10;(Answered True)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' />
+              <text column='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' />
+              <color column='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]</field>
+                  <field>[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;AnyHealthcare&quot;</value>
+                <value>5736</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{324090A1-BD94-4E19-A375-2119D2248D65}' />
+    </worksheet>
+    <worksheet name='Positive chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of People who have/had Heart Problems who also answer yes the following to health factors questions.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbPositive' name='federated.163nhue0m4c67c1d26q5o1qat2hy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.163nhue0m4c67c1d26q5o1qat2hy'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[True]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[True]' derivation='Sum' name='[sum:True:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' value='55' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' value='20' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]</rows>
+        <cols>[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]</cols>
+      </table>
+      <simple-id uuid='{C4F9F0CE-CC58-4462-8018-67CDA4A58749}' />
+    </worksheet>
+    <worksheet name='Positive data'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Positive data</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='heartProbPositive' name='federated.163nhue0m4c67c1d26q5o1qat2hy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.163nhue0m4c67c1d26q5o1qat2hy'>
+            <column caption='Considered Hlth Fact' datatype='string' name='[F1]' role='dimension' type='nominal' />
+            <column caption='Num Heart Problem' datatype='integer' name='[True]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[True]' derivation='Sum' name='[sum:True:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d6dee6</color>
+                <color>#beccdb</color>
+                <color>#a6bbd0</color>
+                <color>#90abc5</color>
+                <color>#7c9cbb</color>
+                <color>#698db0</color>
+                <color>#577fa5</color>
+                <color>#47719a</color>
+                <color>#39648f</color>
+                <color>#2c5985</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' value='Range of Positive Health &#10;factors Heart Problem'>
+              <formatted-text>
+                <run>Range of Positive Health 
+factors Heart Problem</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' />
+              <text column='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{E7701BEA-02B0-45BE-B269-0408F3B2A53D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='93351' id='7' param='horz' type-v2='layout-flow' w='99048' x='476' y='5865'>
+            <zone h='93351' id='5' type-v2='layout-basic' w='99048' x='476' y='5865'>
+              <zone h='29216' id='3' name='Positive data' w='18222' x='476' y='5865'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46652' id='9' name='Positive bubble' w='26935' x='18698' y='5865'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='28586' id='11' name='Negative data' w='18222' x='476' y='70630'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46699' id='13' name='Negative bubble' w='26935' x='18698' y='52517'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46652' id='15' name='Positive chart' w='42335' x='57189' y='5865'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='46699' id='16' name='Negative chart' w='42335' x='57189' y='52517'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='160' h='93351' id='19' is-fixed='true' type-v2='layout-basic' w='11556' x='45633' y='5865'>
+                <zone h='59577' id='6' param='vert' type-v2='layout-flow' w='11556' x='45633' y='5865'>
+                  <zone fixed-size='254' h='25686' id='10' is-fixed='true' name='Positive bubble' pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' type-v2='color' w='11556' x='45633' y='5865'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='61' h='6764' id='8' is-fixed='true' name='Positive data' pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' type-v2='color' w='11556' x='45633' y='31551'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='83' forceUpdate='true' h='8921' id='21' is-fixed='true' type-v2='text' w='11556' x='45633' y='38315'>
+                    <formatted-text>
+                      <run fontcolor='#72b966' fontname='Marker Felt' fontsize='18'>Answered Yes</run>
+                      <run fontcolor='#72b966' fontname='Wingdings 2' fontsize='18'>J</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='10069' id='23' is-scaled='1' param='Image/1200px-Heart_corazón.svg.png' type-v2='bitmap' w='11556' x='45633' y='47236'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='75' forceUpdate='true' h='8137' id='22' is-fixed='true' type-v2='text' w='11556' x='45633' y='57305'>
+                    <formatted-text>
+                      <run fontalignment='1' fontcolor='#f28e2b' fontname='Marker Felt' fontsize='18'>Answered No</run>
+                      <run fontalignment='1' fontcolor='#f28e2b' fontname='Wingdings 2' fontsize='18'>K</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='33774' id='20' param='vert' type-v2='layout-flow' w='11556' x='45633' y='65442'>
+                  <zone fixed-size='71' h='7745' id='12' is-fixed='true' name='Negative data' pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' type-v2='color' w='11556' x='45633' y='65442'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone fixed-size='380' h='26029' id='14' is-fixed='true' name='Negative bubble' pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' type-v2='color' w='11556' x='45633' y='73187'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone forceUpdate='true' h='35549' id='24' type-v2='text' w='18222' x='476' y='35081'>
+                <formatted-text>
+                  <run fontcolor='#4e79a7' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HighBP:</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10'>Æ </run>
+                  <run fontcolor='#000000' fontsize='10'>Told blood pressure is high by </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#000000' fontsize='10'>health professional. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#f28e2b' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HighChol: </run>
+                  <run fontcolor='#000000' fontsize='10'>Told Cholesterol is high by health professional. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#e15759' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>CholCheck: </run>
+                  <run fontcolor='#000000' fontsize='10'>Had a Cholesterol check within past five years. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#a0cbe8' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Smoker:</run>
+                  <run fontcolor='#000000' fontsize='10'> Smoked &gt;= 100 cigarettes in their entire life. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#59a14f' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Stroke:</run>
+                  <run fontcolor='#000000' fontsize='10' underline='true'>Æ </run>
+                  <run fontcolor='#000000' fontsize='10'> Had a stroke. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#f1ce63' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Diabetes:</run>
+                  <run fontcolor='#000000' fontsize='10'> Have diabetes. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#b07aa1' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HvyAlcoholConsump:</run>
+                  <run fontcolor='#000000' fontsize='10'> Men &gt; 14 drinks/week, Women &gt;7 drinks/ week. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#fabfd2' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>AnyHealthcare:</run>
+                  <run fontcolor='#000000' fontsize='10'> Has access to any form of health care. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#9d7660' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>NoDocbcCost:</run>
+                  <run fontcolor='#000000' fontsize='10'> Has no doctor because of the high cost. </run>
+                  <run>Æ&#10;</run>
+                  <run fontcolor='#a7acad' fontsize='10'>***</run>
+                  <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>PhysAcitivity:</run>
+                  <run fontcolor='#000000' fontsize='10'> Are you active &gt;= 1 time per day. </run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='5081' id='17' type-v2='text' w='99048' x='476' y='784'>
+            <formatted-text>
+              <run bold='true' fontsize='20'>What health factors relate the most to Heart problem/heart attacks?</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='5428' id='30' type-v2='text' w='31034' x='18661' y='49791'>
+          <formatted-text>
+            <run>______________________________________________________</run>
+          </formatted-text>
+        </zone>
+        <zone h='3132' id='31' type-v2='text' w='17782' x='57404' y='50731'>
+          <formatted-text>
+            <run>____________________________________</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2350' minheight='2350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98330' id='36' param='vert' type-v2='layout-flow' w='98910' x='545' y='835'>
+                <zone forceUpdate='true' h='5077' id='17' type-v2='text' w='98910' x='545' y='835'>
+                  <formatted-text>
+                    <run bold='true' fontsize='20'>What health factors relate the most to Heart problem/heart attacks?</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='226' h='29188' id='3' is-fixed='true' name='Positive data' w='18197' x='545' y='5912'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='61' h='7202' id='8' name='Positive data' pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' type-v2='color' w='11540' x='45640' y='33261'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46605' id='9' is-fixed='true' name='Positive bubble' w='26898' x='18742' y='5912'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='254' h='27349' id='10' name='Positive bubble' pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' type-v2='color' w='11540' x='45640' y='5912'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46605' id='15' is-fixed='true' name='Positive chart' w='42275' x='57180' y='5912'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='35511' id='24' type-v2='text' w='18197' x='545' y='35100'>
+                  <formatted-text>
+                    <run fontcolor='#4e79a7' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HighBP:</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10'>Æ </run>
+                    <run fontcolor='#000000' fontsize='10'>Told blood pressure is high by </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontsize='10'>health professional. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#f28e2b' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HighChol: </run>
+                    <run fontcolor='#000000' fontsize='10'>Told Cholesterol is high by health professional. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#e15759' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>CholCheck: </run>
+                    <run fontcolor='#000000' fontsize='10'>Had a Cholesterol check within past five years. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#a0cbe8' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Smoker:</run>
+                    <run fontcolor='#000000' fontsize='10'> Smoked &gt;= 100 cigarettes in their entire life. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#59a14f' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Stroke:</run>
+                    <run fontcolor='#000000' fontsize='10' underline='true'>Æ </run>
+                    <run fontcolor='#000000' fontsize='10'> Had a stroke. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#f1ce63' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>Diabetes:</run>
+                    <run fontcolor='#000000' fontsize='10'> Have diabetes. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#b07aa1' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>HvyAlcoholConsump:</run>
+                    <run fontcolor='#000000' fontsize='10'> Men &gt; 14 drinks/week, Women &gt;7 drinks/ week. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#fabfd2' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>AnyHealthcare:</run>
+                    <run fontcolor='#000000' fontsize='10'> Has access to any form of health care. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#9d7660' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>NoDocbcCost:</run>
+                    <run fontcolor='#000000' fontsize='10'> Has no doctor because of the high cost. </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#a7acad' fontsize='10'>***</run>
+                    <run bold='true' fontcolor='#000000' fontsize='10' underline='true'>PhysAcitivity:</run>
+                    <run fontcolor='#000000' fontsize='10'> Are you active &gt;= 1 time per day. </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='83' forceUpdate='true' h='9499' id='21' type-v2='text' w='11540' x='45640' y='40463'>
+                  <formatted-text>
+                    <run fontcolor='#72b966' fontname='Marker Felt' fontsize='18'>Answered Yes</run>
+                    <run fontcolor='#72b966' fontname='Wingdings 2' fontsize='18'>J</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5428' id='30' type-v2='text' w='31034' x='18661' y='49791'>
+                  <formatted-text>
+                    <run>______________________________________________________</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='46' h='6803' id='23' is-fixed='true' is-scaled='1' param='Image/1200px-Heart_corazón.svg.png' type-v2='bitmap' w='11540' x='45640' y='49962'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3132' id='31' type-v2='text' w='17782' x='57404' y='50731'>
+                  <formatted-text>
+                    <run>____________________________________</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46648' id='13' is-fixed='true' name='Negative bubble' w='26898' x='18742' y='52517'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='380' h='25490' id='14' name='Negative bubble' pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' type-v2='color' w='11540' x='45640' y='73675'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='46648' id='16' is-fixed='true' name='Negative chart' w='42275' x='57180' y='52517'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='75' forceUpdate='true' h='8664' id='22' type-v2='text' w='11540' x='45640' y='56765'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#f28e2b' fontname='Marker Felt' fontsize='18'>Answered No</run>
+                    <run fontalignment='1' fontcolor='#f28e2b' fontname='Wingdings 2' fontsize='18'>K</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='220' h='28554' id='11' is-fixed='true' name='Negative data' w='18197' x='545' y='70611'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='71' h='8246' id='12' name='Negative data' pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' type-v2='color' w='11540' x='45640' y='65429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B8613644-DE17-4D5A-9D4D-EFAE05F0E9C3}' />
+    </dashboard>
+  </dashboards>
+  <windows pres-mode='true' source-height='51'>
+    <window class='worksheet' name='Positive data'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[sum:True:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D31B158A-C1CA-4B3A-A5D6-AB10E96AF3EB}' />
+    </window>
+    <window class='worksheet' name='Positive bubble'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.163nhue0m4c67c1d26q5o1qat2hy].[none:F1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47F900DC-E36C-46E3-A7C1-2639E55D9282}' />
+    </window>
+    <window class='worksheet' name='Positive chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3108A7F2-2940-42DE-A9F6-2C7AD58607DA}' />
+    </window>
+    <window class='worksheet' name='Negative data'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[sum:False:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F4BAF021-1A04-4120-8A59-CE4BA36078AD}' />
+    </window>
+    <window class='worksheet' name='Negative bubble'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0pg7le318irt331a996ef015b5gi].[none:F1:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8904F77F-8A94-4F79-BF49-18D7E328675F}' />
+    </window>
+    <window class='worksheet' name='Negative chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7739545A-7FE9-4C8D-A6DD-9AC0756E9728}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Negative bubble'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Negative chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Negative data'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Positive bubble'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Positive chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Positive data'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{C5075D87-BB6A-418B-979E-A00A1B8C92EA}' />
+    </window>
+  </windows>
+</workbook>
