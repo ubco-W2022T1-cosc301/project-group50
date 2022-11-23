@@ -22,17 +22,18 @@ def renameColumns(df):
     df.rename(columns = {'HighChol' : 'HighCholesterol'}, inplace = True)
     df.rename(columns = {'DiffWalk' : 'DifficultyWalkingUpStairs'}, inplace = True)
     df.rename(columns = {'Sex' : 'Gender'}, inplace = True)
-    return dfgh
+    return df
     
 def replaceValues(df):
-    dfgh['Gender'] = df['Gender'].replace(to_replace=0, value='Woman')
-    dfgh['Gender'] = df['Gender'].replace(to_replace=1, value='Man')
-    dfgh['Diabetes'] = df['Diabetes'].replace(to_replace=1, value=0)
-    dfgh['Diabetes'] = df['Diabetes'].replace(to_replace=2, value=1)
-    dfgh = df.replace(to_replace=1, value='Yes')
-    dfgh = df.replace(to_replace=0, value='No')
+ 
+    df['Gender'] = df['Gender'].replace(to_replace=0, value='Woman')
+    df['Gender'] = df['Gender'].replace(to_replace=1, value='Man')
+    df['Diabetes'] = df['Diabetes'].replace(to_replace=1, value=0)
+    df['Diabetes'] = df['Diabetes'].replace(to_replace=2, value=1)
+    df = df.replace(to_replace=1, value='Yes')
+    df = df.replace(to_replace=0, value='No')
     
-    return dfgh
+    return df
 
 def reorderColumns(df):
 #re-order columns to present Gender at the beginning
