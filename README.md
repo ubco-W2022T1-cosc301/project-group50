@@ -16,7 +16,7 @@ Because Heart disease is such a large problem in the United States, the data set
 
 ## Team Members
 - Justin: I live in kelowna, I am a math major, minoring in computer science. 
-- Colton Palfrey: I am a 3rd year COSC Major and I live in West Kelowna BC!
+- Colton: I am a 3rd year COSC Major and I live in West Kelowna BC!
 - Mitchell: I live in vernon, I have an interest in safety mechanisms and I am in engineering at UBCO
 
 ## Images
