@@ -1,5 +1,5 @@
-
-def pipeline1(path):
+import pandas as pd
+def pipeline(path):
    
     HD = pd.read_csv(path)
 
