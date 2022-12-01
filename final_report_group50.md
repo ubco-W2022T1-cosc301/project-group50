@@ -16,16 +16,16 @@ Having chose a very rich dataset with lots of possibility for reasearch question
 
 
 ## Notebook 1: Colton Palfrey
- *Reasearch question:* What health factors relate the most to Heart problem/heart attacks?
+ **Reasearch question:** What health factors relate the most to Heart problem/heart attacks?
 
 
 ## Notebook 2: Justin Dilabio
- *Reasearch question:* How does BMI correlate to medical event and conditions?
+ **Reasearch question:** How does BMI correlate to medical event and conditions?
 
 
 
 ## Notebook 3: Mitchell Alexander
- *Reasearch question:* What are the differences of health indicators between genders?
+ **Reasearch question:** What are the differences of health indicators between genders?
 
 
 ## **Conclusion**
