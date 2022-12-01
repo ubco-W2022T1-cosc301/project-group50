@@ -43,6 +43,7 @@ Conducting this analysis gave us alot more insight into how we were going to be 
 
 ## Analysis 1: Colton Palfrey
  **Reasearch question:** What health factors relate the most to Heart problem/heart attacks?
+
 For my research question I wanted to be able to figure out which of the data columns in our dataset coincided with the highest number of heart problems/heart attacks. Before beggining my analyses I had high predictions that recepients who had heart issues would also have had a high chance of having other health isseus such a stroke, high Cholesterol, Diabetes, or even a lack of physical activity. With my analysis complete and my diagrams to prove so I learned that recepients with heart problems had almost no notable coralation to strokes or diabetes and Instead I was able to see that smoking, high colesterol, and High blood pressure have the largest effect on those with heart conditions. My data showed that almost every single recepient with heart related issues received fequent Colesterol checks with many of them often returning a high colesterol value.
 
 **Diagram 1:** Observing the graph below it appears as though people that have high blood pressure, high collesterol, and that are smokers all place very high in heart desease victims. I found these factors to all make alot of sense as these are all contributing factors to having lower health.
