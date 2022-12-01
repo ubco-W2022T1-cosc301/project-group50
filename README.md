@@ -28,5 +28,4 @@ Because Heart disease is such a large problem in the United States, the data set
 
 source: https://www.webmd.com/heart-disease/ss/slideshow-heart-disease-affects-body
 ## References
-
-{Add your credits, acknowledgements, references, or citations **https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset** here}
+**https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset**
