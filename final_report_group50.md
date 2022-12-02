@@ -72,19 +72,19 @@ For this portion of our analysis, I looked into the relationship between medical
 
 In my exploratory data analysis, I wanted to first get an idea of the range of this sample was. 
 
-![]('./images/sc1')
+![]('../images/sc1')
 
 The mean BMI value was 27.92, and most observations fell within plus/minus 5 of the mean. The distribution is also skewed to to the higher side. 
 
 Next, I plotted the occurence frequency of stroke and heart attack/disease in the same plot. 
 
-![[]('./images/sc2')
+![]('../images/sc2')
 
 From this plot, we can see that those most at risk of both events are those at very low BMI, around 10-18. From about 20, there seems to be a small but steady linear increase in rate. However stroke rates remain lower for BMI up to 30.
 
 Finally, percentage rates of medical conditions were plotted as a function of BMI. 
 
-![[]('./images/sc3')
+![]('../images/sc3')
 
 
 I can see from the plots, all explored occurences follow a similar pattern. They tend to increase sharply at very low bmi. Around BMI = 18 to BMI = 22, events are lowest and seem to gradually increase as BMI increases. However stroke rates remain low for BMI up to 30.
