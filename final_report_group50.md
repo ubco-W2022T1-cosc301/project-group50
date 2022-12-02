@@ -8,7 +8,7 @@
 
 ## **Introduction**
 
-Because Heart disease is such a large problem in the United States, the data set we chose to analyze surrounds heart disease with data to calculate/analyze what factors in human health lead to an increased or decreased chance in heart disease. The data columns in our database include medical related tests such as high blood pressure and high cholesterol as well as data behind personal health choices such as smoker or non smoker and the patient's level of physical activity. This data set takes 22 columns of observations data into consideration and returns the tested results behind over 25,000 observations. This data is very well organized and will provide a great base for our project.
+Because Heart disease is such a big problem in the United States, the data set we chose to analyze surrounds heart disease with data to calculate/analyze what factors in human health lead to an increased or decreased chance in heart disease. The data columns in our dataset include medical related tests such as high blood pressure and high cholesterol as well as data behind personal health choices such as smoker or non smoker and the patient's level of physical activity. This data set takes 22 columns of observations data into consideration and returns the tested results behind over 160 000 observations. These data are very well organized and will provide a great base for our project.
 
 ## **Exploratory Data Analysis**
 
@@ -56,9 +56,49 @@ For my research question I wanted to be able to figure out which of the data col
 
 **Wanting to see more on analysis 1?**
 [find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis1.ipynb)
-## Analysis 2: Justin Dilabio
- **Reasearch question:** How does BMI correlate to medical event and conditions?
 
+## Analysis 2: Justin Dilabio
+
+
+ **Reasearch question:** At which BMI are people most most at risk of medical events and conditions?
+ 
+---
+For this portion of our analysis, I looked into the relationship between medical coditions and events and BMI, to answer the question above.
+### events/conditions iclude:
+- stroke
+- heart disease/heart attack
+- high cholesterol
+- diabetes 
+
+In my exploratory data analysis, I wanted to first get an idea of the range of this sample was. 
+
+![]('./images/sc1')
+
+The mean BMI value was 27.92, and most observations fell within plus/minus 5 of the mean. The distribution is also skewed to to the higher side. 
+
+Next, I plotted the occurence frequency of stroke and heart attack/disease in the same plot. 
+
+![[]('./images/sc2')
+
+From this plot, we can see that those most at risk of both events are those at very low BMI, around 10-18. From about 20, there seems to be a small but steady linear increase in rate. However stroke rates remain lower for BMI up to 30.
+
+Finally, percentage rates of medical conditions were plotted as a function of BMI. 
+
+![[]('./images/sc3')
+
+
+I can see from the plots, all explored occurences follow a similar pattern. They tend to increase sharply at very low bmi. Around BMI = 18 to BMI = 22, events are lowest and seem to gradually increase as BMI increases. However stroke rates remain low for BMI up to 30.
+
+## How this EDA answers the research question
+To begin, I plotted the BMI distribution of the population with which we are working. This revealed that in our sample, mos tof the individuals were within the 25-35 range, but a significant number of were above (see plot 1.1).
+
+Next, to find who is most at risk of the recorded medical events int the dataset, I plotted the frequency of stroke and heart disease/attack (per 100 individuals) as a function of BMI. The shape of the plot revealed that those int the 10-17 range seemed to most frequently suffer from the medeical events. For Stroke, those between 20 and 30 were least at risk, and there was an linearly increasing risk as BMI increased. For heart attack/disease, those within the 20-25 range were the least at risk, and a linear increase was apparent beyond 25.
+
+Finally, a similar process was done to explore who is most at risk of diabetes, high blood pressure and high cholesterol. Those in the 10-15 range tended to suffer significantly more than the average, but those on the higher side suffered of these at a higher frequency. The individuals least at risk were in the 18-22 range.
+
+To answer my research question, from our data, those most at risk of medical events are the individuals in the 10-17 range, following by those with high BMI. Next, the people most at risk of the mentioned medical conditions were those with highest BMI, followed by those with very low BMI (10-15).
+
+Putting everything in perspective, The association between BMI and health coditions is much higher than the association between BMI and health events(see figure 4.1). Both still have an apparent linear relationship.
 
 
 ## Analysis 3: Mitchell Alexander
