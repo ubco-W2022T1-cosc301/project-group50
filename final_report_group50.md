@@ -62,9 +62,8 @@ For my research question I wanted to be able to figure out which of the data col
 
  **Reasearch question:** At which BMI are people most most at risk of medical events and conditions?
  
----
 For this portion of our analysis, I looked into the relationship between medical coditions and events and BMI, to answer the question above.
-### events/conditions iclude:
+### events/conditions include:
 - stroke
 - heart disease/heart attack
 - high cholesterol
@@ -87,7 +86,8 @@ Finally, percentage rates of medical conditions were plotted as a function of BM
 
 I can see from the plots, all explored occurences follow a similar pattern. They tend to increase sharply at very low bmi. Around BMI = 18 to BMI = 22, events are lowest and seem to gradually increase as BMI increases. However stroke rates remain low for BMI up to 30.
 
-## How this EDA answers the research question
+**How this EDA answers the research question**
+
 To begin, I plotted the BMI distribution of the population with which we are working. This revealed that in our sample, mos tof the individuals were within the 25-35 range, but a significant number of were above (see plot 1.1).
 
 Next, to find who is most at risk of the recorded medical events int the dataset, I plotted the frequency of stroke and heart disease/attack (per 100 individuals) as a function of BMI. The shape of the plot revealed that those int the 10-17 range seemed to most frequently suffer from the medical events. For Stroke, those between 20 and 30 were least at risk, and there was an linearly increasing risk as BMI increased. For heart attack/disease, those within the 20-25 range were the least at risk, and a linear increase was apparent beyond 25.
@@ -98,6 +98,8 @@ To answer my research question, from our data, those most at risk of medical eve
 
 Putting everything in perspective, The association between BMI and health coditions is much higher than the association between BMI and health events. Both still have an apparent linear relationship.
 
+**Wanting to see more on analysis 2?**
+[find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis2.ipynb)
 
 ## Analysis 3: Mitchell Alexander
  **Reasearch question:** What are the differences of health indicators between genders?
