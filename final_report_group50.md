@@ -94,7 +94,7 @@ Click [here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/n
 ## Analysis 3: Mitchell Alexander
  **Reasearch question:** What are the differences of health indicators between genders, and which gender is on average more unhealthy?
 
-Before conducting my research analysis I was curious about the differences in health indicators between men and women. I decided to focus my analysis on the columns which showed a binary 1 (yes) and 0 (no) for having the specified health issue. The columns of focus for me were HeartDiseaseorAttack, HighBP(High Blood Pressure), HighChol (High Cholesterol), Stroke, Diabetes, and DiffWalk (Difficuly Walking up Stairs). Therefore the other collumns were filtered out.
+Before conducting my research analysis I was curious about the differences in health indicators between men and women. I decided to focus my analysis on the columns which showed a binary 1 (yes) and 0 (no) for having the specified health issue. The columns of focus for my data analysis were HeartDiseaseorAttack, HighBP(High Blood Pressure), HighChol (High Cholesterol), Stroke, Diabetes, and DiffWalk (Difficuly Walking up Stairs). Therefore the other collumns were filtered out.
 I wanted the data to look more presentable so I changed the column names to be more understandible, and changed the values of gender from 0 to 'Women' and 1 to 'Men'. I also changed the values of the health indicators from 0 to 'No' and 1 to 'Yes'. I wanted to see how many people were in each gender so I created two subsets of the original csv file 
 
 <img width="588" alt="2022-12-02 (2)" src="https://user-images.githubusercontent.com/114033686/205422134-bbc45a4e-865c-41c2-b78e-a647ec7b10e9.png">
