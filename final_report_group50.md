@@ -116,10 +116,8 @@ This helped me gain an understanding that there where in fact more women then me
 ![M Wdifference](https://user-images.githubusercontent.com/114033686/205422214-a2d8e83e-87a1-4e1f-a885-c3161b440f2d.png)
 
 
-I then plotted the distribution of people who did and did not have heach specific health issues in both genders.
 
-![HD A_M W](https://user-images.githubusercontent.com/114033686/205422414-6ae8e670-2635-4248-b638-b973ec69bc26.png)![HighChol_M W](https://user-images.githubusercontent.com/114033686/205422430-10de4094-ed67-4b6a-8675-de287da3a048.png)![HBP_M W](https://user-images.githubusercontent.com/114033686/205422479-e8c30c3b-5d14-4778-8578-9097a7ce74cf.png)![Diabetes](https://user-images.githubusercontent.com/114033686/205422496-ff43f816-48ea-4415-b4bd-c913f3280bb5.png)![Strokes](https://user-images.githubusercontent.com/114033686/205422436-d418bddc-a3e0-4da1-8cb4-422f074a3609.png)![Diffwalk](https://user-images.githubusercontent.com/114033686/205422514-2a2660ea-4b3f-4d85-bb44-bc89e19c03f9.png)
-
+I then plotted the distribution of people who did and did not have heach specific health issues in both genders. To avoid an ecsessive anpount of images I've added a link where you can see these plots in my data analisis in [my notebook here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis3.ipynb)
 
 It was hard to notice at first but with taking in account the difference in the amount of people in each gender, it became apparent that the ratio of men who had health issues versus those who didnt was greater than that of women. this was true for almost every column other than DifficultyWalkingUpStairs which seemed equally porportional to each other.
 
