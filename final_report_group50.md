@@ -62,44 +62,34 @@ For my research question I wanted to be able to figure out which of the data col
 
  **Reasearch question:** At which BMI are people most most at risk of medical events and conditions?
  
+---
 For this portion of our analysis, I looked into the relationship between medical coditions and events and BMI, to answer the question above.
-### events/conditions include:
+### events/conditions iclude:
 - stroke
 - heart disease/heart attack
 - high cholesterol
 - diabetes 
 
-In my exploratory data analysis, I wanted to first get an idea of the range of this sample was. 
+To begin, I plotted the BMI distribution of the population with which we are working. This revealed that in our sample, mos tof the individuals were within the 25-35 range, but a significant number of were below (see plot 1.1).
 
 <img width="720" alt="Screenshot 2022-12-01 at 2 14 53 PM" src="https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/images/sc1.png">
 
-The mean BMI value was 27.92, and most observations fell within plus/minus 5 of the mean. The distribution is also skewed to to the higher side. 
 
-Next, I plotted the occurence frequency of stroke and heart attack/disease in the same plot. 
-
-<img width="720" alt="Screenshot 2022-12-01 at 2 14 53 PM" src="https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/images/sc2.png">
-From this plot, we can see that those most at risk of both events are those at very low BMI, around 10-18. From about 20, there seems to be a small but steady linear increase in rate. However stroke rates remain lower for BMI up to 30.
-
-Finally, percentage rates of medical conditions were plotted as a function of BMI. 
-
-<img width="720" alt="Screenshot 2022-12-01 at 2 14 53 PM" src="https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/images/sc3.png">
-
-I can see from the plots, all explored occurences follow a similar pattern. They tend to increase sharply at very low bmi. Around BMI = 18 to BMI = 22, events are lowest and seem to gradually increase as BMI increases. However stroke rates remain low for BMI up to 30.
-
-**How this EDA answers the research question**
-
-To begin, I plotted the BMI distribution of the population with which we are working. This revealed that in our sample, mos tof the individuals were within the 25-35 range, but a significant number of were above (see plot 1.1).
 
 Next, to find who is most at risk of the recorded medical events int the dataset, I plotted the frequency of stroke and heart disease/attack (per 100 individuals) as a function of BMI. The shape of the plot revealed that those int the 10-17 range seemed to most frequently suffer from the medical events. For Stroke, those between 20 and 30 were least at risk, and there was an linearly increasing risk as BMI increased. For heart attack/disease, those within the 20-25 range were the least at risk, and a linear increase was apparent beyond 25.
 
+<img width="720" alt="Screenshot 2022-12-01 at 2 14 53 PM" src="https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/images/sc2.png">
+
+
 Finally, a similar process was done to explore who is most at risk of diabetes, high blood pressure and high cholesterol. Those in the 10-15 range tended to suffer significantly more than the average, but those on the higher side suffered of these at a higher frequency. The individuals least at risk were in the 18-22 range.
 
-To answer my research question, from our data, those most at risk of medical events are the individuals in the 10-17 range, followed by those with high BMI. Next, the people most at risk of the mentioned medical conditions were those with highest BMI, followed by those with very low BMI (10-15).
+<img width="720" alt="Screenshot 2022-12-01 at 2 14 53 PM" src="https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/images/sc3.png">
+
+
+To answer my research question, from our dataset, those most at risk of medical events are the individuals in the 10-17 range, followed by those with high BMI. Next, the people most at risk of the mentioned medical conditions were those with highest BMI, followed by those with very low BMI (10-15).
 
 Putting everything in perspective, The association between BMI and health coditions is much higher than the association between BMI and health events. Both still have an apparent linear relationship.
-
-**Wanting to see more on analysis 2?**
-[find the full analysis notebook here, including the code and the data here!](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis2.ipynb)
+Click [here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis2.ipynb) to view the techniques and code used to cinduct my EDA.
 
 ## Analysis 3: Mitchell Alexander
  **Reasearch question:** What are the differences of health indicators between genders, and which gender is on average more unhealthy?
@@ -125,3 +115,14 @@ It was hard to notice at first but with taking in account the difference in the 
 Therefore I was able to conclude my research question and determine that men had on average more health issues than women.
 
 ## **Conclusion**
+
+This project thad 3 research questions:
+ 1. What health factors relate the most to Heart problem/heart attacks?
+ 1. At which BMI are people most most at risk of medical events and conditions?
+ 1. What are the differences of health indicators between genders?
+ 
+To answer the first question, Colton plotted some determinants of health against the number of people with heart problems as well as the same determinants, against the count of those who have no had heart problems. From his EDA, Colton was able to conclude that smokers, those with high cholesterol and those with high blood pressure all appeared to have an increased risk of heart disease. Those who have not had a stroke, do not have diabetes, and those who are no heavy drinkers are less likely to experience heart problems. 
+
+To answer Question 2, Justin Plotted rates of stroke, heart attack/disease, diabetes, high blood pressure and high cholesterol against BMI. He was able to pull from his EDA that those at risk of all of these are thos at very low BMI, and those at very high. 
+
+To asnwer the third question, Mitchell plotted the count of those with health issues grouped by gender. From his analysis, he was able to determine that for almost every negative health indicator, men represented a higher percentage of occurences.
