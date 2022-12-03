@@ -1,4 +1,4 @@
-# An Analysis of Heart Desease
+# An Analysis of Heart Disease
 
 ### *Group memebers:*
 
@@ -8,7 +8,7 @@
 
 ## **Introduction**
 
-Because Heart disease is such a big problem in the United States, the data set we chose to analyze surrounds heart disease with data to calculate/analyze what factors in human health lead to an increased or decreased chance in heart disease. The data columns in our dataset include medical related tests such as high blood pressure and high cholesterol as well as data behind personal health choices such as smoker or non smoker and the patient's level of physical activity. This data set takes 22 columns of observations data into consideration and returns the tested results behind over 160 000 observations. These data are very well organized and will provide a great base for our project.
+Because Heart disease is such a big problem in the United States, the data set we chose to analyze surrounds heart disease with data to calculate/analyze what factors in human health lead to an increased or decreased chance in heart disease. The data columns in our dataset include medical related tests such as high blood pressure and high cholesterol as well as data behind personal health choices such as smoker or non smoker and the patient's level of physical activity. This data set takes 22 columns of observations data into consideration and returns the tested results behind over 250 000 observations. These data are very well organized and will provide a great base for our project.
 
 ## **Exploratory Data Analysis**
 
@@ -116,7 +116,7 @@ Therefore I was able to conclude my research question and determine that men had
 
 ## **Conclusion**
 
-This project thad 3 research questions:
+This project had 3 research questions:
  1. What health factors relate the most to Heart problem/heart attacks?
  1. At which BMI are people most most at risk of medical events and conditions?
  1. What are the differences of health indicators between genders?
