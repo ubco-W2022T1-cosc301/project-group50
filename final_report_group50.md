@@ -89,7 +89,7 @@ Finally, a similar process was done to explore who is most at risk of diabetes, 
 To answer my research question, from our dataset, those most at risk of medical events are the individuals in the 10-17 range, followed by those with high BMI. Next, the people most at risk of the mentioned medical conditions were those with highest BMI, followed by those with very low BMI (10-15).
 
 Putting everything in perspective, The association between BMI and health coditions is much higher than the association between BMI and health events. Both still have an apparent linear relationship.
-Click [here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis2.ipynb) to view the techniques and code used to cinduct my EDA.
+Click [here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis2.ipynb) to view the techniques and code used to conduct my EDA.
 
 ## Analysis 3: Mitchell Alexander
  **Reasearch question:** What are the differences of health indicators between genders, and which gender is on average more unhealthy?
