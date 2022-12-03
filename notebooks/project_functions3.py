@@ -4,7 +4,7 @@ import os
 
 
 def readCsv(csv):
-    df = pd.read_csv('../heart_disease.csv')
+    df = pd.read_csv(csv)
     return df
 
 

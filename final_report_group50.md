@@ -100,7 +100,23 @@ Putting everything in perspective, The association between BMI and health coditi
 
 
 ## Analysis 3: Mitchell Alexander
- **Reasearch question:** What are the differences of health indicators between genders?
+ **Reasearch question:** What are the differences of health indicators between genders, and which gender is on average more unhealthy?
 
+Before conducting my research analysis I was curious about the differences in health indicators between men and women. I decided to focus my analysis on the columns which showed a binary 1 (yes) and 0 (no) for having the specified health issue. The columns of focus for me were HeartDiseaseorAttack, HighBP(High Blood Pressure), HighChol (High Cholesterol), Stroke, Diabetes, and DiffWalk (Difficuly Walking up Stairs). Therefore the other collumns were filtered out.
+I wanted the data to look more presentable so I changed the column names to be more understandible, and changed the values of gender from 0 to 'Women' and 1 to 'Men'. I also changed the values of the health indicators from 0 to 'No' and 1 to 'Yes'. I wanted to see how many people were in each gender so I created two subsets of the original csv file 
+
+
+
+This helped me gain an understanding that there where in fact more women then men which was inportant to take in account going forward with the analysis
+
+
+
+I then plotted the distribution of people who did and did not have heach specific health issues in both genders.
+
+
+
+It was hard to notice at first but with taking in account the difference in the amount of people in each gender, it became apparent that the ratio of men who had health issues versus those who didnt was greater than that of women. this was true for almost every column other than DifficultyWalkingUpStairs which seemed equally porportional to each other.
+
+Therefore I was able to conclude my research question and determine that men had on average more health issues than women.
 
 ## **Conclusion**
