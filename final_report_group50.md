@@ -107,6 +107,7 @@ Putting everything in perspective, The association between BMI and health coditi
 Before conducting my research analysis I was curious about the differences in health indicators between men and women. I decided to focus my analysis on the columns which showed a binary 1 (yes) and 0 (no) for having the specified health issue. The columns of focus for me were HeartDiseaseorAttack, HighBP(High Blood Pressure), HighChol (High Cholesterol), Stroke, Diabetes, and DiffWalk (Difficuly Walking up Stairs). Therefore the other collumns were filtered out.
 I wanted the data to look more presentable so I changed the column names to be more understandible, and changed the values of gender from 0 to 'Women' and 1 to 'Men'. I also changed the values of the health indicators from 0 to 'No' and 1 to 'Yes'. I wanted to see how many people were in each gender so I created two subsets of the original csv file 
 
+<<<<<<< HEAD
 
 
 This helped me gain an understanding that there where in fact more women then men which was inportant to take in account going forward with the analysis
@@ -116,6 +117,19 @@ This helped me gain an understanding that there where in fact more women then me
 I then plotted the distribution of people who did and did not have heach specific health issues in both genders.
 
 
+=======
+<img width="588" alt="2022-12-02 (2)" src="https://user-images.githubusercontent.com/114033686/205422134-bbc45a4e-865c-41c2-b78e-a647ec7b10e9.png">
+
+<img width="624" alt="2022-12-02 (3)" src="https://user-images.githubusercontent.com/114033686/205422140-4e49510c-0b77-4214-80b7-f7fd38ad42f7.png">
+
+This helped me gain an understanding that there where in fact more women then men which was inportant to take in account going forward with the analysis
+
+![M Wdifference](https://user-images.githubusercontent.com/114033686/205422214-a2d8e83e-87a1-4e1f-a885-c3161b440f2d.png)
+
+
+
+I then plotted the distribution of people who did and did not have heach specific health issues in both genders. To avoid an ecsessive anpount of images I've added a link where you can see these plots in my data analisis in [my notebook here](https://github.com/ubco-W2022T1-cosc301/project-group50/blob/main/notebooks/analysis3.ipynb)
+>>>>>>> d3801edac75bba9532eabe4748adc2201ad388fe
 
 It was hard to notice at first but with taking in account the difference in the amount of people in each gender, it became apparent that the ratio of men who had health issues versus those who didnt was greater than that of women. this was true for almost every column other than DifficultyWalkingUpStairs which seemed equally porportional to each other.
 
